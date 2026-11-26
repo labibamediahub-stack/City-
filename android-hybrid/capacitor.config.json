@@ -1,0 +1,23 @@
+{
+  "appId": "com.cinecraft.studio",
+  "appName": "CineCraft AI Studio",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "https://ais-pre-cv6frxko6syihoou4kzoml-361675572354.asia-southeast1.run.app"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#edf2fb"
+  },
+  "plugins": {
+    "AdMob": {
+      "initializeForTesting": false
+    }
+  }
+}

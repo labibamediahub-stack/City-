@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CineCraft AI Studio</string>
+    <string name="title_activity_main">CineCraft AI Studio</string>
+    <string name="package_name">com.cinecraft.studio</string>
+    <string name="custom_url_scheme">com.cinecraft.studio</string>
+
+    <!-- Google AdMob Production Configuration (Google Official Test IDs pre-filled for safe debug testing; swap before Play Store upload) -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+</resources>

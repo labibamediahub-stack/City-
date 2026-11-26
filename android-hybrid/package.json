@@ -1,0 +1,22 @@
+{
+  "name": "cinecraft-android-hybrid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Separate Capacitor Android Hybrid project packaging the original CineCraft AI Studio web build without altering original source files.",
+  "scripts": {
+    "package:web": "node scripts/package-web.mjs",
+    "cap:sync": "npx cap sync android",
+    "android:build": "npm run package:web && npx cap sync android",
+    "android:apk": "npm run android:build && cd android && ./gradlew assembleDebug && cd .. && mkdir -p ../APK_DOWNLOAD ../.build-outputs && cp android/app/build/outputs/apk/debug/app-debug.apk ../APK_DOWNLOAD/app-debug.apk && cp android/app/build/outputs/apk/debug/app-debug.apk ../.build-outputs/app-debug.apk"
+  },
+  "dependencies": {
+    "@capacitor-community/admob": "^6.2.0",
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}

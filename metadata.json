@@ -1,0 +1,8 @@
+{
+  "name": "22 Generator \u0026 Gallery System",
+  "description": "Automatically extract precise screenshots from videos with custom start/end trims, flexible screenshot counts, live progress, gallery management, and ZIP export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
